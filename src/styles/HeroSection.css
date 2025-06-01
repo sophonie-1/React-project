@@ -1,0 +1,115 @@
+.hero-section{
+    background-color: var(--color-primary-green);
+}
+.hero-overlay{
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-overlay .hero-text{
+    padding: 70px 0 40px 0;
+}
+.hero-text h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 64px;
+    font-weight: 500;  /* 'medium' correspond à 500 */
+    color: var(--color-primary-yellow);
+}
+.hero-text h2{
+    font-size: 40px ;
+    font-family: 'karla', sans-serif;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: var(--color-secondary);
+}
+.hero-text p{
+    width: 320px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family:  'karla', sans-serif;
+    color: var(--color-secondary);
+}
+.hero-text .reserve-button{
+    background-color: var(--color-primary-yellow);
+    color: var(--color-button-text);
+    font-size: 16px;
+    font-weight: 900;
+    font-family:'karla', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.hero-overlay .hero-image{
+    position: absolute;
+    top:30px;
+    right: 0;
+}
+.hero-image img{
+    border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+    .hero-overlay {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .hero-overlay .hero-text {
+        padding: 40px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 30px;
+    }
+
+    .hero-overlay .hero-image {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: 30px;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text h2 {
+        font-size: 24px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-text .reserve-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .hero-image img {
+        max-width: 300px;
+    }
+}
