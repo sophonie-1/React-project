@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-project/static/css/main.ba78ec56.css",
+    "main.js": "/React-project/static/js/main.9e8ddb8c.js",
+    "static/js/453.99c1801e.chunk.js": "/React-project/static/js/453.99c1801e.chunk.js",
+    "static/media/Bukira.jpg": "/React-project/static/media/Bukira.ac5a269fd2003afe4adc.jpg",
+    "static/media/Mario-Adriano.webp": "/React-project/static/media/Mario-Adriano.d251c263f0e5d2a09194.webp",
+    "static/media/Mario.webp": "/React-project/static/media/Mario.3553362d97d8633173a8.webp",
+    "static/media/greek-salad.webp": "/React-project/static/media/greek-salad.742ddc86763c1fcc0eed.webp",
+    "static/media/logo 2.png": "/React-project/static/media/logo 2.2c859235d6c57bb54176.png",
+    "static/media/Logo.svg": "/React-project/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/restauranfood.jpg": "/React-project/static/media/restauranfood.40c8ce38221cb735bd02.jpg",
+    "static/media/bruchetta.webp": "/React-project/static/media/bruchetta.e031f8d83c3827a19d3b.webp",
+    "static/media/lemon dessert.webp": "/React-project/static/media/lemon dessert.6b15f708940e766aca50.webp",
+    "index.html": "/React-project/index.html",
+    "main.ba78ec56.css.map": "/React-project/static/css/main.ba78ec56.css.map",
+    "main.9e8ddb8c.js.map": "/React-project/static/js/main.9e8ddb8c.js.map",
+    "453.99c1801e.chunk.js.map": "/React-project/static/js/453.99c1801e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba78ec56.css",
+    "static/js/main.9e8ddb8c.js"
+  ]
+}
