@@ -2,7 +2,7 @@ import React from "react";
 import BookingFom from "./components/BookingForm";
 import { initializeTimes, updateTimes } from "./components/TimeReducer";
 import { render, screen, fireEvent } from "@testing-library/react";
-
+import { MemoryRouter } from 'react-router-dom';
 
 global.fetchAPI = jest.fn();
 
