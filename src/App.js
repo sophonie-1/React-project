@@ -19,6 +19,7 @@ export default function App() {
         <Route path="/confirmed" element={<ConfirmedBooking />} />
       </Routes>
     </div>
+    
   );
 }
 
