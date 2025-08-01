@@ -23,8 +23,8 @@ export default function Footer() {
                 <div className="contact item-footer">
                     <h4>Contact</h4>
                     <p>Adress: 123 Main St, Chicago, IL 60601</p>
-                    <p>Phone: (123) 456-7890</p>
-                    <p>Email: glodiperso24@gmail.com</p>
+                    <p>Phone: (255)749289580</p>
+                    <p>Email: bukirasophoni347@gmail.com</p>
                 </div>
                 <div className="socoal-media-links item-footer">
                     <h4>Social Media</h4>
